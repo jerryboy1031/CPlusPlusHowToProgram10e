@@ -1,4 +1,4 @@
-// Fig. 9.3: fig09_03.cpp
+// Fig. 9.3: fig09_03.cpp 
 // Program to test class Time.                    
 // NOTE: This file must be compiled with Time.cpp.
 #include <iostream>
