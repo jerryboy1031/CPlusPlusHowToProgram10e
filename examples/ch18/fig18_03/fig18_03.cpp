@@ -13,7 +13,8 @@ void testStack(
    const T& value, // initial value to push                  
    const T& increment, // increment for subsequent values    
    size_t size, // number of items to push                   
-   const string& stackName) { // name of the Stack<T> object
+   const string& stackName) // name of the Stack<T> object
+{ 
    cout << "\nPushing elements onto " << stackName << '\n'; 
    T pushValue{value};
 

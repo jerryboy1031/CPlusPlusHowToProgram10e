@@ -76,7 +76,7 @@ string CommissionEmployee::toString() const {
    ostringstream output;
    output << fixed << setprecision(2); // two digits of precision   
    output << "commission employee: "
-      << getFirstName() << ' ' << getLastName()
+      << getFirstName() << ' ' << getLastName() // *************use get func instead of direct accessing private data 
       << "\nsocial security number: " << getSocialSecurityNumber()
       << "\ngross sales: " << getGrossSales()
       << "\ncommission rate: " << getCommissionRate();

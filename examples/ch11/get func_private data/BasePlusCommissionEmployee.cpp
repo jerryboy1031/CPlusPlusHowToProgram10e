@@ -36,8 +36,8 @@ double BasePlusCommissionEmployee::earnings() const {
 // return string representation of BasePlusCommissionEmployee object
 string BasePlusCommissionEmployee::toString() const {
    ostringstream output;
-   output << "base-salaried " << CommissionEmployee::toString()
-      << "\nbase salary: " << getBaseSalary();
+   output << "base-salaried " << CommissionEmployee::toString() //*********
+      << "\nbase salary: " << getBaseSalary(); //*********
    return output.str();
 }
 

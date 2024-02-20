@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-   array<int, 5> n; // n is an array of 5 int values
+   array<int, 5> n ; // n is an array of 5 int values
 
    // initialize elements of array n to 0        
    for (size_t i{0}; i < n.size(); ++i) {

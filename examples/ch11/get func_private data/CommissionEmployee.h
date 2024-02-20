@@ -27,7 +27,8 @@ public:
 
    double earnings() const; // calculate earnings
    std::string toString() const; // create string representation
-private:
+   
+private: // protected--> private *************
    std::string firstName;
    std::string lastName;
    std::string socialSecurityNumber;
